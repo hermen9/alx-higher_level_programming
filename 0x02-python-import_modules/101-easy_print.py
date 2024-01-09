@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-def print_output(a):
-    a = "#pythoniscool"
-    return(a)
-print_output(a)
+__import__("os").write(1, "#pythoniscool\n".encode('UTF-8'))
