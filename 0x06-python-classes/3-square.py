@@ -21,5 +21,4 @@ class Square:
     def area(self):
         """represents the are of the square"""
 
-        area = self.__size * self.__size
-        return area
+        return (self.__size * self.__size)
